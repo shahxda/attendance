@@ -1,0 +1,45 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+
+  .center-sumpg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .h1sumpg {
+    color: #1434A4;
+    margin-bottom: 30px;
+  }
+
+  .attendance-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .attendance-table th,
+  .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .attendance-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .no-data-message {
+    color: #666;
+    font-style: italic;
+  }
+  .logo {
+    width: 100px; /* Adjust the width as desired */
+    height: 100px; /* Adjust the height as desired */
+    display: block;
+    margin: 0 auto; /* Center-align the image */
+  }

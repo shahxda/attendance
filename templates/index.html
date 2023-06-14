@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attendance Page</title>
+    <link rel="stylesheet" href="../static/indexstyle.css">
+    <script src="attendance.js"></script>
+  </head>
+
+  <body>
+
+    <div class="center-sumpg">
+      <img src="../static/logo.png" alt="Logo" class="logo">
+      <h1 class="h1index">ATTENDANCE</h1>
+      <h1 class="h11index">CS211_APR2023 - System Design and Practical Project</h1>
+      <div id="attendanceSummary"></div>
+    </div>
+
+
+    <div class="center">
+      <form action="/face_recognition" method="POST">
+        <label for="studentID">Student ID:</label>
+        <input type="text" id="studentID" name="studentID" required>
+        <button type="submit">Submit</button>
+    </form>    
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attendance Summary</title>
+    <link rel="stylesheet" href="../static/summarystyle.css">
+    <script src="summary.js"></script>
+  </head>
+
+  <body>
+
+    <div class="center-sumpg">
+      <h1 class="h1sumpg">Attendance Summary</h1>
+      <table id="attendanceSummary" class="attendance-table"></table>
+    </div>
+
+    <script>
+      // Retrieve the student ID from the URL query parameter
+      var urlParams = new URLSearchParams(window.location.search);
+      var studentID = urlParams.get('id');
+
+      // Call the function to fetch and display attendance data
+      getAttendanceSummary(studentID);
+    </script>
+  </body>
+</html>
